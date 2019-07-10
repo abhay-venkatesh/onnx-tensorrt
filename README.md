@@ -119,3 +119,7 @@ You can use `-v` flag to make output more verbose.
 ## Pre-trained models
 
 Pre-trained models in ONNX format can be found at the [ONNX Model Zoo](https://github.com/onnx/models)
+
+## Personal Installation Notes
+
+First, perform https://github.com/protocolbuffers/protobuf/blob/master/src/README.md
