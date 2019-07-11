@@ -123,3 +123,10 @@ Pre-trained models in ONNX format can be found at the [ONNX Model Zoo](https://g
 ## Personal Installation Notes
 
 First, perform https://github.com/protocolbuffers/protobuf/blob/master/src/README.md
+
+Then,
+```bash
+export CUDNN_INCLUDE_DIR="/usr/local/cuda-10.1/include"
+export CUDNN_LIBRARY="/usr/local/cuda-10.1/lib64"
+cmake .. -DTENSORRT_ROOT=/usr/local/TensorRT-5.1.5.0
+```
